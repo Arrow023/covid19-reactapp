@@ -114,7 +114,7 @@ class App extends Component {
         {/* This is the final view, basically a footer section of a webpage */}
         <View style={{flex:1,flexDirection:"row",justifyContent:'center'}} >
           <SocialIcon button type='facebook' style={{width:50}} onPress={()=>Linking.openURL('https://www.facebook.com/lifelessons2327')} />
-          <SocialIcon button type='instagram' style={{width:50}} iconColor='#E1306C' onPress={()=>Linking.openURL('https://www.instagram.com/lifelessons__2327/')} />
+          <SocialIcon button type='instagram' style={{width:50}} onPress={()=>Linking.openURL('https://www.instagram.com/lifelessons__2327/')} />
           <SocialIcon button type='youtube' style={{width:50}} onPress={()=>Linking.openURL('https://www.youtube.com/c/Lifelessons2327')} />
           <SocialIcon button type='envelope' style={{width:50}} onPress={()=>Linking.openURL('mailto:oliverqueen232000@gmail.com')} />
         </View>
