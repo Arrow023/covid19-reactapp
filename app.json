@@ -1,12 +1,16 @@
 {
   "name": "covid19",
   "displayName": "covid19",
+  "icon":"./logo.png",
   "expo": {
     "name": "covid19",
     "slug": "expo-template-bare",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android":{
+      "package":"com.lifelessons.covid19predictor"
+    }
   }
 }
